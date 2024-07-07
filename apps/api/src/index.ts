@@ -1,17 +1,17 @@
 import express from "express";
 
-const app = express();
+const app =  express();
+
 app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+
+const port = process.env.PORT || 3001;
 
 app.get("/", (req, res) => {
-  res.json({
-    message: "hello world",
-  });
-});
+    return res.json({
+        message : "hello world"
+    });
+})
 
-const PORT = process.env.PORT || 3001;
-
-app.listen(PORT, () => {
-  console.log("Server running on PORT:", PORT);
+app.listen(port, () => {
+  console.log(`Server is running on http://localhost:${port}`);
 });
