@@ -12,10 +12,10 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "prisma": "^5.16.1"
+    "prisma": "^5.16.2"
   },
   "dependencies": {
-    "@prisma/client": "^5.16.1"
+    "@prisma/client": "^5.16.2"
   },
   "exports": {
     ".": "./src/index.ts"

@@ -16,7 +16,7 @@ This Turborepo includes the following packages/apps:
 
 ### Apps and Packages
 
-- `api`: A Node js application
+- `api`: A [Node.js](https://nodejs.org/) app (which includes npm)
 - `web`: A [Next.js](https://nextjs.org/) app
 - `@web-watcher/ui`: a stub React component library shared by both `web` and `api` applications
 - `@web-watcher/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
